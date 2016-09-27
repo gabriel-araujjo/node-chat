@@ -1,0 +1,25 @@
+{
+  "name": "node-rc4-chat",
+  "version": "1.0.0",
+  "description": "Simple chat with optional rc4 encryptation",
+  "main": "src/chat.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "p2p",
+    "socket",
+    "connection",
+    "net",
+    "internet",
+    "chat"
+  ],
+  "author": "Gabriel Araújo <gabriel140492@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rc4-stream": "git+https://github.com/gabriel-araujjo/node-rc4.git"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+  }
+}
