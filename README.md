@@ -1,6 +1,6 @@
 # Node RC4 chat
 
-A wrapper for socket with a optional RC4 cryptography
+A wrapper for socket with an optional RC4 cryptography
 
 This _class_ does not allow multiple clients
 
