@@ -1,5 +1,5 @@
 {
-  "name": "node-rc4-chat",
+  "name": "rc4-chat",
   "version": "1.0.0",
   "description": "Simple chat with optional rc4 encryptation",
   "main": "src/chat.js",
