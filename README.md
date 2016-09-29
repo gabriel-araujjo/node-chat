@@ -23,6 +23,7 @@ This _class_ does not allow multiple clients
 ## Public Methods
 * `write(data, enc)` = write data into startPoint
 * `connect(options)` = connect this chat to a remote instance.
+* `disconnect()` = disconnect the chat if a connection is established
 
 ## Triggered Events
 * `connect` = triggered when a client was connected
