@@ -1,16 +1,17 @@
 # Node RC4 chat
 
-A wrapper for socket with an optional RC4 cryptography
+A wrapper for socket that implement a p2p connection with possibility
+of adding a cryptographic Layer
 
 This _class_ does not allow multiple clients
 
 ## Internal Fields:
 * `server` = socket listener
 * `port` = port where the server listen to
-* `cipher` = rc4 stream to cipher messages
-* `decipher` = rc4 stream to decipher incoming messages
-* `endPoint` = point where the clear messages can be read (it can be the socket itself, if a key was not set)
-* `startPoint` = point where the clear messages can be written (it can be the socket itself, if a key was not set)
+* `cipher` = transform stream to cipher messages
+* `decipher` = transform stream to decipher incoming messages
+* `endPoint` = point where the clear messages can be read (it can be the socket itself, if no cryptographic layer was set)
+* `startPoint` = point where the clear messages can be written (it can be the socket itself, if no cryptographic layer was set)
 * `socket` = connection to another instance of this chat
 
 ## Public Read Only Attribute
@@ -30,4 +31,4 @@ This _class_ does not allow multiple clients
 * `connect` = triggered when a client was connected
 * `busy` = triggered when a connection is about to be established with a chat in progress
 * `close` = triggered when a connection is closed
-* `data` = triggered triggered when a message arrives
+* `data` = triggered when a message arrives
