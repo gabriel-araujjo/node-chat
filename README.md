@@ -24,6 +24,7 @@ This _class_ does not allow multiple clients
 * `write(data, enc)` = write data into startPoint
 * `connect(options)` = connect this chat to a remote instance.
 * `disconnect()` = disconnect the chat if a connection is established
+* `setCryptoLayer(cipher, decipher)` = wrap chat with a cryptographic layer. `cipher` and `decipher` are Transform streams
 
 ## Triggered Events
 * `connect` = triggered when a client was connected

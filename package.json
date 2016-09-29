@@ -1,5 +1,5 @@
 {
-  "name": "rc4-chat",
+  "name": "chat",
   "version": "1.0.0",
   "description": "Simple chat with optional rc4 encryptation",
   "main": "lib/chat.js",
@@ -16,10 +16,8 @@
   ],
   "author": "Gabriel Araújo <gabriel140492@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "rc4-stream": "git+https://github.com/gabriel-araujjo/node-rc4.git"
-  },
   "devDependencies": {
-    "colors": "^1.1.2"
+    "colors": "^1.1.2",
+    "rc4-stream": "git+https://github.com/gabriel-araujjo/node-rc4.git"
   }
 }
